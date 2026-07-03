@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Rumah Alam Jaya - Rumah peternakan & perkebunan terintegrasi berkelanjutan dengan budidaya maggot, ikan nila, ayam, dan perkebunan organik zero-waste.">
+    <title>Rumah Alam Jaya - Agro-Farming Terintegrasi & Berkelanjutan</title>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Tab Icon / Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌱</text></svg>">
+</head>
+<body>
+
+    <!-- HEADER / NAVIGATION BAR -->
+    <header id="mainHeader">
+        <div class="container navbar">
+            <a href="#" class="logo" id="logoLink" data-target="home">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M17 8C16.3 8 15.65 8.1 15.05 8.3C14.45 6.4 12.65 5 10.5 5C7.46 5 5 7.46 5 10.5C5 12.65 6.4 14.45 8.3 15.05C8.1 15.65 8 16.3 8 17C8 19.76 10.24 22 13 22C15.76 22 18 19.76 18 17C18 16.3 17.9 15.65 17.7 15.05C19.6 14.45 21 12.65 21 10.5C21 7.74 18.76 5 16 5L17 8ZM13 20C11.34 20 10 18.66 10 17C10 16.7 10.05 16.4 10.15 16.15C10.85 16.7 11.85 17 13 17C14.66 17 16 15.66 16 14C16 12.85 15.7 11.85 15.15 11.15C15.4 11.05 15.7 11 16 11C17.66 11 19 12.34 19 14C19 14.3 18.95 14.6 18.85 14.85C18.15 14.3 17.15 14 16 14C14.34 14 13 15.34 13 17C13 17.3 13.05 17.6 13.15 17.85C12.45 17.3 11.45 17 10.3 17C8.64 17 7.3 15.66 7.3 14C7.3 13.7 7.35 13.4 7.45 13.15C8.15 13.7 9.15 14 10.3 14C11.96 14 13.3 12.66 13.3 11C13.3 10.7 13.25 10.4 13.15 10.15C13.85 10.7 14.85 11 16 11C17.66 11 19 9.66 19 8C19 7.7 18.95 7.4 18.85 7.15C18.15 7.7 17.15 8 16 8C14.34 8 13 6.66 13 5C13 4.7 13.05 4.4 13.15 4.15C12.45 4.7 11.45 5 10.3 5C8.64 5 7.3 3.66 7.3 2C7.3 1.7 7.35 1.4 7.45 1.15C8.15 1.7 9.15 2 10.3 2C11.96 2 13.3 3.34 13.3 5C13.3 5.3 13.25 5.6 13.15 5.85C13.85 5.3 14.85 5 16 5C17.66 5 19 6.34 19 8Z" style="display:none;"/>
+                    <path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM13 17H11V15H13V17ZM13 13H11V7H13V13Z" style="display:none;"/>
+                    <!-- Custom beautiful leaf logo icon path -->
+                    <path d="M12 2C6.48 2 2 6.48 2 12C2 15.5 3.8 18.6 6.5 20.3L6.5 17C6.5 13.1 9.6 10 13.5 10L16 10C17.7 10 19 8.7 19 7C19 5.3 17.7 4 16 4L12 4C9.8 4 8 5.8 8 8C8 8.6 8.1 9.1 8.4 9.6C7.5 10.1 6.8 10.9 6.4 11.9C5.5 12.8 5 14.1 5 15.5C5 18 6.7 20.1 9 20.8C10 21 11 21.1 12 21.1C17.5 21.1 22 16.6 22 11.1C22 6.1 17.5 2 12 2Z" fill="currentColor"/>
+                    <path d="M14 6C12.9 6 12 6.9 12 8C12 9.1 12.9 10 14 10C15.1 10 16 9.1 16 8C16 6.9 15.1 6 14 6Z" fill="var(--accent)"/>
+                </svg>
+                Rumah Alam Jaya
+            </a>
+            
+            <nav class="nav-links" id="navbarLinks">
+                <a class="active" data-target="home" id="navHome">Beranda</a>
+                <a data-target="profil" id="navProfil">Profil & Visi Misi</a>
+                <a data-target="kegiatan" id="navKegiatan">Kegiatan & Panduan</a>
+                <a data-target="kontak" id="navKontak">Hubungi Kami</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle" title="Ganti ke Mode Gelap">🌙</button>
+                <button class="menu-toggle" id="menuBtn" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN BODY -->
+    <main>
+        
+        <!-- ==========================================
+             HALAMAN 1: BERANDA (HOMEPAGE)
+             ========================================== -->
+        <section id="home" class="page-section active">
+            
+            <!-- Hero Banner -->
+            <div class="hero">
+                <div class="container hero-grid">
+                    <div class="hero-content">
+                        <span class="hero-badge">Pioneering Circular Agriculture</span>
+                        <h1>Integrasi Alam Menuju <span>Kejayaan Hijau</span></h1>
+                        <p>Rumah Alam Jaya mengintegrasikan perkebunan organik dengan peternakan cacing/maggot, ayam, dan budidaya ikan nila dalam satu ekosistem zero-waste yang berkelanjutan.</p>
+                        <div class="hero-buttons">
+                            <button class="btn btn-primary" data-target="profil">
+                                Tentang Kami
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </button>
+                            <button class="btn btn-secondary" data-target="kegiatan">Panduan Praktis</button>
+                        </div>
+                    </div>
+                    <div class="hero-image-container">
+                        <img src="assets/images/hero_farm.png" alt="Integrated farming of Rumah Alam Jaya" class="hero-image">
+                        <div class="hero-card-floating">
+                            <div class="hero-card-icon">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" fill="#ffffff"/>
+                                </svg>
+                            </div>
+                            <div class="hero-card-text">
+                                <h4>100% Organik</h4>
+                                <p>Ekosistem Bebas Limbah</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 4 Pilar Sektor Utama -->
+            <div class="container" style="margin-top: 100px;">
+                <div class="section-title-wrap">
+                    <h2>Pilar Bisnis Ekosistem Terpadu</h2>
+                    <p>Sinergi harmoni antara empat pilar pertanian dan peternakan demi menghasilkan produk bernilai tinggi sekaligus menjaga kelestarian alam.</p>
+                </div>
+
+                <div class="sectors-grid">
+                    <!-- Maggot & Cacing -->
+                    <div class="sector-card">
+                        <div class="sector-img-wrap">
+                            <img src="assets/images/maggot_farm.png" alt="Budidaya Cacing & Maggot">
+                            <span class="sector-tag">Peternakan</span>
+                        </div>
+                        <div class="sector-info">
+                            <h3>Peternakan Cacing & Maggot</h3>
+                            <p>Mengolah limbah organik peternakan ayam menjadi protein tinggi untuk pakan ternak berkualitas tinggi melalui Black Soldier Fly (BSF) larvae.</p>
+                            <a class="sector-link" data-target="kegiatan">
+                                Pelajari Proses
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Ikan Nila -->
+                    <div class="sector-card">
+                        <div class="sector-img-wrap">
+                            <img src="assets/images/fish_farm.png" alt="Budidaya Ikan Nila">
+                            <span class="sector-tag">Budidaya Air</span>
+                        </div>
+                        <div class="sector-info">
+                            <h3>Budidaya Ikan Nila</h3>
+                            <p>Budidaya ikan air tawar di kolam sirkulasi ramah lingkungan, memanfaatkan sebagian pakan maggot organik untuk pertumbuhan ikan yang sehat.</p>
+                            <a class="sector-link" data-target="profil">
+                                Lihat Integrasi
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Ayam -->
+                    <div class="sector-card">
+                        <div class="sector-img-wrap">
+                            <img src="assets/images/chicken_farm.png" alt="Peternakan Ayam Organik">
+                            <span class="sector-tag">Peternakan</span>
+                        </div>
+                        <div class="sector-info">
+                            <h3>Peternakan Ayam</h3>
+                            <p>Peternakan ayam ras organik bebas stres dengan pakan alami, menghasilkan pupuk kandang mentah sebagai bahan baku utama kompos kebun.</p>
+                            <a class="sector-link" data-target="profil">
+                                Selengkapnya
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Perkebunan -->
+                    <div class="sector-card">
+                        <div class="sector-img-wrap">
+                            <img src="assets/images/garden.png" alt="Perkebunan Organik">
+                            <span class="sector-tag">Perkebunan</span>
+                        </div>
+                        <div class="sector-info">
+                            <h3>Perkebunan Organik</h3>
+                            <p>Pertanian tanaman hortikultura subur yang ditutrisi langsung oleh pupuk organik kasgot (bekas maggot) dan kompos alami olahan mandiri.</p>
+                            <a class="sector-link" data-target="kegiatan">
+                                Cara Berkebun
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Statistik Interaktif -->
+                <div class="stats-section">
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <h2 class="stat-number" data-target="25000">0</h2>
+                            <p>Ton Sampah Diolah/Tahun</p>
+                        </div>
+                        <div class="stat-item">
+                            <h2 class="stat-number" data-target="150000">0</h2>
+                            <p>Butir Telur Organik / Bulan</p>
+                        </div>
+                        <div class="stat-item">
+                            <h2 class="stat-number" data-target="10">0</h2>
+                            <p>Ton Nila Dipanen / Siklus</p>
+                        </div>
+                        <div class="stat-item">
+                            <h2 class="stat-number" data-target="50">0</h2>
+                            <p>Varietas Sayur & Buah Organik</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             HALAMAN 2: PROFIL, VISI MISI & TUJUAN
+             ========================================== -->
+        <section id="profil" class="page-section">
+            <div class="container">
+                
+                <!-- Tentang Kami Grid -->
+                <div class="about-grid">
+                    <div class="about-img-container">
+                        <img src="assets/images/hero_farm.png" alt="Profile Rumah Alam Jaya">
+                        <div class="about-badge-floating">
+                            2021
+                            <span>Berdiri</span>
+                        </div>
+                    </div>
+                    <div class="about-content">
+                        <h2>Menjaga Tradisi, Membangun Inovasi Agro-Farming</h2>
+                        <p><strong>Rumah Alam Jaya</strong> lahir dari kepedulian yang mendalam terhadap isu ketahanan pangan nasional dan penumpukan limbah organik perkotaan serta peternakan. Kami meyakini bahwa solusi pertanian masa depan terletak pada konsep regenerasi tanah dan optimalisasi rantai nutrisi tertutup.</p>
+                        <p>Berawal dari lahan sederhana, kami terus mengembangkan metode pertanian terpadu terpadu (Integrated Farming System) yang menggabungkan kecanggihan sains budidaya hayati dengan kebijaksanaan hukum alam. Melalui integrasi cacing/maggot, perikanan nila, peternakan unggas, dan perkebunan hortikultura, kami membuktikan bahwa bisnis berkelanjutan dapat membawa kejayaan finansial sekaligus keberkahan ekologis.</p>
+                    </div>
+                </div>
+
+                <!-- Visi & Misi -->
+                <div class="vision-mission">
+                    <div class="vm-card">
+                        <div class="vm-icon-wrap">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/>
+                            </svg>
+                        </div>
+                        <h3>Visi Kami</h3>
+                        <p>Menjadi pelopor utama dan model agro-farming terintegrasi ramah lingkungan (zero-waste) skala nasional yang menginspirasi pemuda dan masyarakat untuk bertani secara mandiri, sehat, dan menguntungkan.</p>
+                    </div>
+
+                    <div class="vm-card">
+                        <div class="vm-icon-wrap">
+                            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10h-4v4h-2v-4H7v-2h4V7h2v4h4v2z"/>
+                            </svg>
+                        </div>
+                        <h3>Misi Kami</h3>
+                        <ul class="vm-list">
+                            <li>Memproduksi pakan, ikan, unggas, dan sayuran organik berkualitas premium yang terjangkau bagi publik.</li>
+                            <li>Mengembangkan teknologi pengomposan biologis yang efektif mengurangi limbah karbon global secara signifikan.</li>
+                            <li>Mengedukasi masyarakat melalui kurikulum pelatihan pertanian modern berkonsep sirkuler.</li>
+                            <li>Memastikan regenerasi kesuburan tanah dengan pupuk organik organik alami kasgot.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Deep Purpose / Tujuan Mendalam -->
+                <div class="purpose-section">
+                    <div class="purpose-wrap">
+                        <div class="purpose-text">
+                            <h2>Tujuan Mendalam (Deep Purpose)</h2>
+                            <p><strong>Rumah Alam Jaya</strong> tidak sekadar berorientasi pada profit, melainkan sebuah gerakan restorasi alam. Tujuan mendalam kami adalah **memutus mata rantai ketergantungan pupuk kimia sintetis** serta **mengeliminasi limbah organik dari industri pangan**.</p>
+                            <p>Dalam siklus terintegrasi kami:</p>
+                            <ul class="vm-list" style="margin-bottom: 24px;">
+                                <li>Limbah pertanian & kotoran ayam diolah oleh maggot/cacing menjadi kasgot subur.</li>
+                                <li>Maggot dipanen sebagai pakan kaya protein untuk ayam dan nila (menghemat 60% biaya pakan biasa).</li>
+                                <li>Air kolam nila bernutrisi tinggi dialirkan untuk menyiram tanaman perkebunan.</li>
+                                <li>Tanaman perkebunan menghasilkan oksigen, buah sehat, dan limbah hijau yang masuk kembali ke rantai kompos.</li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Interactive Loop Animation Box -->
+                        <div class="circular-loop-container">
+                            <svg class="loop-svg-lines" viewBox="0 0 320 320">
+                                <circle cx="160" cy="160" r="110"></circle>
+                            </svg>
+                            <div class="loop-center">Siklus<br>Sinergi</div>
+                            
+                            <!-- Maggot -->
+                            <div class="loop-node node-maggot" title="Maggot/Cacing memakan kotoran ayam & limbah organik. Menghasilkan kasgot.">
+                                <svg viewBox="0 0 24 24"><path d="M19.5 9.5c-.83 0-1.5-.67-1.5-1.5S18.67 6.5 19.5 6.5s1.5.67 1.5 1.5-.67 1.5-1.5 1.5M6 16.5c.83 0 1.5.67 1.5 1.5S6.83 19.5 6 19.5s-1.5-.67-1.5-1.5.67-1.5 1.5-1.5M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 14h-2v-2h2v2zm0-4h-2V7h2v5z"/></svg>
+                                Maggot/Cacing
+                            </div>
+                            
+                            <!-- Nila -->
+                            <div class="loop-node node-nila" title="Air kolam nila yang subur digunakan untuk irigasi kebun organik.">
+                                <svg viewBox="0 0 24 24"><path d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12s4.48 10 10 10 10-4.48 10-10zm-10 8c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"/></svg>
+                                Ikan Nila
+                            </div>
+                            
+                            <!-- Kebun -->
+                            <div class="loop-node node-kebun" title="Sayur & buah dipanen. Sisa daun kering dikomposkan untuk penyubur.">
+                                <svg viewBox="0 0 24 24"><path d="M17 8C16.3 8 15.65 8.1 15.05 8.3C14.45 6.4 12.65 5 10.5 5 7.46 5 5 7.46 5 10.5C5 12.65 6.4 14.45 8.3 15.05C8.1 15.65 8 16.3 8 17C8 19.76 10.24 22 13 22C15.76 22 18 19.76 18 17C18 16.3 17.9 15.65 17.7 15.05C19.6 14.45 21 12.65 21 10.5C21 7.74 18.76 5 16 5L17 8Z"/></svg>
+                                Perkebunan
+                            </div>
+                            
+                            <!-- Ayam -->
+                            <div class="loop-node node-ayam" title="Kotoran ayam difermentasi cepat untuk pakan maggot.">
+                                <svg viewBox="0 0 24 24"><path d="M12 3c-1.2 0-2.4 1.1-2.9 2.2C8.6 6.3 8.3 7.6 8.3 9c0 1.4.3 2.7.8 3.8.5 1.1 1.7 2.2 2.9 2.2s2.4-1.1 2.9-2.2c.5-1.1.8-2.4.8-3.8 0-1.4-.3-2.7-.8-3.8C14.4 4.1 13.2 3 12 3zm0 9c-.5 0-.9-.4-.9-.9 0-.5.4-.9.9-.9s.9.4.9.9c0 .5-.4.9-.9.9z"/></svg>
+                                Ayam
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ==========================================
+             HALAMAN 3: KEGIATAN & PANDUAN (DOKUMENTASI)
+             ========================================== -->
+        <section id="kegiatan" class="page-section">
+            <div class="container">
+                <div class="section-title-wrap">
+                    <h2>Galeri Kegiatan & Panduan Teknis</h2>
+                    <p>Saksikan aktivitas harian di Rumah Alam Jaya serta pelajari modul panduan praktis untuk mempraktikkan gaya hidup sirkuler di rumah Anda.</p>
+                </div>
+
+                <!-- Filter Kegiatan -->
+                <div class="filter-container">
+                    <button class="filter-btn active" data-filter="all">Semua Foto</button>
+                    <button class="filter-btn" data-filter="kebun">Berkebun</button>
+                    <button class="filter-btn" data-filter="maggot">Ternak Maggot</button>
+                    <button class="filter-btn" data-filter="kompos">Pembuatan Kompos</button>
+                </div>
+
+                <!-- Cards Grid Galeri Kegiatan -->
+                <div class="docs-grid">
+                    <!-- Berkebun -->
+                    <div class="doc-card" data-category="kebun">
+                        <div class="doc-img-wrap">
+                            <img src="assets/images/garden.png" alt="Panen sayur hidroponik dan organik">
+                            <span class="doc-date">Juli 2026</span>
+                        </div>
+                        <div class="doc-info">
+                            <span class="doc-category">Berkebun</span>
+                            <h3>Panen Raya Hortikultura Organik</h3>
+                            <p>Kegiatan mingguan pemetikan selada, tomat ceri, dan bayam Jepang dari perkebunan Rumah Alam Jaya yang mendapat nutrisi optimal dari kasgot organik.</p>
+                        </div>
+                    </div>
+
+                    <!-- Maggot 1 -->
+                    <div class="doc-card" data-category="maggot">
+                        <div class="doc-img-wrap">
+                            <img src="assets/images/maggot_farm.png" alt="Metode budidaya maggot BSF">
+                            <span class="doc-date">Juni 2026</span>
+                        </div>
+                        <div class="doc-info">
+                            <span class="doc-category">Ternak Maggot</span>
+                            <h3>Edukasi Budidaya Larva BSF (Maggot)</h3>
+                            <p>Dokumentasi penyusunan rak biopond bersih menggunakan limbah buah pasar untuk mempercepat pertumbuhan larva sebelum dipanen menjadi pakan ayam.</p>
+                        </div>
+                    </div>
+
+                    <!-- Kompos 1 -->
+                    <div class="doc-card" data-category="kompos">
+                        <div class="doc-img-wrap">
+                            <img src="assets/images/composting.png" alt="Proses pembuatan pupuk kompos">
+                            <span class="doc-date">Mei 2026</span>
+                        </div>
+                        <div class="doc-info">
+                            <span class="doc-category">Pembuatan Kompos</span>
+                            <h3>Fermentasi Cepat Pupuk Padat Kasgot</h3>
+                            <p>Aktivitas pencampuran kotoran ayam kering dengan dedak halus dan starter EM4 biologis dalam wadah kedap untuk menghasilkan kompos premium.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Panduan Teknis Interaktif -->
+                <div class="guides-section">
+                    <div class="section-title-wrap">
+                        <h2>Panduan Praktis Rumah Alam Jaya</h2>
+                        <p>Mari turut serta mempraktikkan konsep sirkuler secara mandiri. Berikut adalah langkah praktis yang telah kami standarisasikan.</p>
+                    </div>
+
+                    <div class="guides-accordion">
+                        
+                        <!-- Accordion 1: Ternak Maggot BSF -->
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <span>Cara Sukses Ternak Maggot BSF (Pengurai Limbah)</span>
+                                <span class="accordion-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="guide-step-list">
+                                    <div class="guide-step-item">
+                                        <div class="step-number">1</div>
+                                        <div class="step-details">
+                                            <h4>Pembuatan Kandang Lalat BSF</h4>
+                                            <p>Buat kandang jaring berukuran minimal 1x1x2 meter yang terpapar cahaya matahari pagi agar merangsang perkawinan lalat BSF jantan dan betina.</p>
+                                        </div>
+                                    </div>
+                                    <div class="guide-step-item">
+                                        <div class="step-number">2</div>
+                                        <div class="step-details">
+                                            <h4>Penyediaan Media Bertelur (Eggets)</h4>
+                                            <p>Susun potongan kayu kecil/papan tipis yang diberi celah di atas media umpan bau (dedak basah + penyedap rasa) untuk merangsang lalat betina bertelur di sela kayu.</p>
+                                        </div>
+                                    </div>
+                                    <div class="guide-step-item">
+                                        <div class="step-number">3</div>
+                                        <div class="step-details">
+                                            <h4>Penetasan Telur & Pembesaran Larva</h4>
+                                            <p>Pindahkan telur dari sela kayu ke nampan kecil berisi dedak basah halus selama 3-4 hari. Setelah lalat menetas menjadi larva kecil, beri limbah buah dan sayuran cincang dalam wadah biopond beratap.</p>
+                                        </div>
+                                    </div>
+                                    <div class="guide-step-item">
+                                        <div class="step-number">4</div>
+                                        <div class="step-details">
+                                            <h4>Panen Maggot & Pengolahan Sisa (Kasgot)</h4>
+                                            <p>Panen maggot segar pada hari ke-15 hingga ke-21 sebelum berubah menjadi prepupa hitam. Pisahkan maggot dengan sisa pakan yang telah hancur (kasgot). Sisa kasgot langsung siap dijadikan pupuk.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Accordion 2: Pembuatan Kompos -->
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <span>Cara Membuat Kompos Organik Berkualitas Tinggi</span>
+                                <span class="accordion-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="guide-step-list">
+                                    <div class="guide-step-item">
+                                        <div class="step-number">1</div>
+                                        <div class="step-details">
+                                            <h4>Kumpulkan Bahan Cokelat & Hijau</h4>
+                                            <p>Siapkan rasio bahan nitrogen tinggi/hijau (kotoran ayam, sisa sayur kebun) sebesar 1 bagian, dan karbon tinggi/cokelat (daun kering, serbuk gergaji, sekam) sebesar 2 bagian.</p>
+                                        </div>
+                                    </div>
+                                    <div class="guide-step-item">
+                                        <div class="step-number">2</div>
+                                        <div class="step-details">
+                                            <h4>Pencacahan & Pencampuran Starter</h4>
+                                            <p>Cacah bahan kebun menjadi bagian kecil (2-5 cm). Larutkan 10 ml cairan EM4 (starter mikroba) dan 1 sendok gula ke dalam 1 liter air hangat, biarkan selama 15 menit, lalu siramkan perlahan ke campuran kompos.</p>
+                                        </div>
+                                    </div>
+                                    <div class="guide-step-item">
+                                        <div class="step-number">3</div>
+                                        <div class="step-details">
+                                            <h4>Menjaga Kelembapan di Komposter</h4>
+                                            <p>Masukkan adonan kompos ke wadah tong komposter berlubang sirkulasi udara. Pastikan tingkat kebasahan seperti spons basah yang diperas (sekitar 50-60% kelembapan).</p>
+                                        </div>
+                                    </div>
+                                    <div class="guide-step-item">
+                                        <div class="step-number">4</div>
+                                        <div class="step-details">
+                                            <h4>Pembalikan Rutin & Pematangan</h4>
+                                            <p>Balik tumpukan kompos seminggu sekali agar mendapat pasokan oksigen yang cukup. Dalam waktu 4-6 minggu, kompos akan matang ditandai dengan warna gelap, berbau tanah segar, dan suhu turun normal.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Accordion 3: Tips Berkebun Hortikultura -->
+                        <div class="accordion-item">
+                            <div class="accordion-header">
+                                <span>Langkah Tepat Berkebun Hortikultura di Lahan Sempit</span>
+                                <span class="accordion-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/>
+                                    </svg>
+                                </span>
+                            </div>
+                            <div class="accordion-content">
+                                <div class="guide-step-list">
+                                    <div class="guide-step-item">
+                                        <div class="step-number">1</div>
+                                        <div class="step-details">
+                                            <h4>Pemilihan Benih & Persemaian</h4>
+                                            <p>Pilihlah benih sayuran unggul F1 seperti kangkung, pakcoy, selada, atau cabai rawit. Semai di baki semai kecil menggunakan media tanah campur kasgot (1:1).</p>
+                                        </div>
+                                    </div>
+                                    <div class="guide-step-item">
+                                        <div class="step-number">2</div>
+                                        <div class="step-details">
+                                            <h4>Penyiapan Wadah / Vertikultur</h4>
+                                            <p>Manfaatkan botol plastik bekas, talang air, atau pot gantung vertikal untuk menghemat tempat di pekarangan rumah atau dinding semen.</p>
+                                        </div>
+                                    </div>
+                                    <div class="guide-step-item">
+                                        <div class="step-number">3</div>
+                                        <div class="step-details">
+                                            <h4>Pemberian Nutrisi Cair & Penyiraman</h4>
+                                            <p>Siram tanaman dua kali sehari (pagi dan sore). Berikan Pupuk Organik Cair (POC) buatan sendiri dari rendaman sisa sayur/maggot seminggu sekali untuk merangsang daun lebat.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             HALAMAN 4: CONTACT & MEDIA SOSIAL
+             ========================================== -->
+        <section id="kontak" class="page-section">
+            <div class="container">
+                <div class="section-title-wrap">
+                    <h2>Hubungi Kami & Kemitraan</h2>
+                    <p>Rumah Alam Jaya membuka peluang kolaborasi, magang pertanian sirkuler, penyediaan pupuk kasgot skala besar, serta suplai pakan ternak.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Info Sosial Media & Kontak -->
+                    <div class="contact-info-wrap">
+                        <div class="contact-intro">
+                            <h2>Mari Terhubung!</h2>
+                            <p>Kunjungi peternakan dan perkebunan kami secara langsung untuk berdiskusi, membeli produk organik segar, atau menjajaki peluang bisnis.</p>
+                        </div>
+
+                        <div class="contact-details-list">
+                            <!-- Alamat -->
+                            <div class="contact-detail-item">
+                                <div class="cd-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                                    </svg>
+                                </div>
+                                <div class="cd-text">
+                                    <h4>Alamat Peternakan Terpadu</h4>
+                                    <p>Jl. Raya Alam Asri No. 45, RT 02/05, Desa Sukamaju, Kec. Cisarua, Jawa Barat</p>
+                                </div>
+                            </div>
+
+                            <!-- WhatsApp -->
+                            <div class="contact-detail-item">
+                                <div class="cd-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                                    </svg>
+                                </div>
+                                <div class="cd-text">
+                                    <h4>WhatsApp Hotline</h4>
+                                    <p>+62 812-3456-7890 (Kemitraan/Penjualan)</p>
+                                </div>
+                            </div>
+
+                            <!-- Jam Layanan -->
+                            <div class="contact-detail-item">
+                                <div class="cd-icon">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                                    </svg>
+                                </div>
+                                <div class="cd-text">
+                                    <h4>Jam Kunjungan Lahan</h4>
+                                    <p>Setiap Hari: 08.00 - 17.00 WIB (Dengan Perjanjian)</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Media Sosial Links -->
+                        <div class="social-links-wrap">
+                            <h4>Sosial Media Resmi:</h4>
+                            <div class="social-icons">
+                                <!-- Instagram -->
+                                <a href="https://instagram.com/rumahalamjaya" target="_blank" class="social-icon-btn" title="Instagram Resmi">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8A3.6 3.6 0 0 0 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6A3.6 3.6 0 0 0 16.4 4H7.6m8.22 1.5a1.28 1.28 0 1 1 0 2.56 1.28 1.28 0 0 1 0-2.56M12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10m0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/>
+                                    </svg>
+                                </a>
+                                <!-- TikTok -->
+                                <a href="https://tiktok.com/@rumahalamjaya" target="_blank" class="social-icon-btn" title="TikTok Resmi">
+                                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12.53.02C13.84 0 15.14.01 16.44 0c.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.07-2.88-.49-4.13-1.24-.2-.12-.4-.26-.59-.41v7.1c-.04 2.14-.94 4.31-2.73 5.5-2.12 1.48-5.11 1.62-7.34.42-2.31-1.2-3.83-3.87-3.52-6.55.3-2.92 2.82-5.46 5.75-5.3 1.76.07 3.39.95 4.28 2.45V0h.03z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Glassmorphic Formulir Kontak -->
+                    <div class="contact-form-card">
+                        <h3>Kirim Pesan Langsung</h3>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name" class="form-label">Nama Lengkap</label>
+                                <input type="text" id="name" class="form-input" placeholder="Masukkan nama Anda..." required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email" class="form-label">Alamat Email</label>
+                                <input type="email" id="email" class="form-input" placeholder="contoh@gmail.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message" class="form-label">Isi Pesan / Pertanyaan</label>
+                                <textarea id="message" class="form-input" placeholder="Tuliskan pesan Anda secara detail..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                                Kirim Pesan
+                            </button>
+                            <div id="formStatus" class="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- Custom Mock Map -->
+                <div class="map-section">
+                    <div class="mock-map">
+                        <div class="mock-map-bg"></div>
+                        <!-- Mock roads -->
+                        <div class="mock-map-road road-h1"></div>
+                        <div class="mock-map-road road-h2"></div>
+                        <div class="mock-map-road road-v1"></div>
+                        <div class="mock-map-road road-v2"></div>
+                        
+                        <!-- Map Marker Card -->
+                        <div class="map-card-info">
+                            <div class="map-pin">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                                </svg>
+                            </div>
+                            <h4>Rumah Alam Jaya</h4>
+                            <p>Kawasan Wisata Agro & Peternakan Terpadu Cisarua, Jawa Barat</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-about">
+                <h3>Rumah Alam Jaya</h3>
+                <p>Ekosistem pertanian dan peternakan berkelanjutan dengan konsep sirkular zero-waste untuk ketahanan pangan mandiri masa depan.</p>
+            </div>
+            <div class="footer-links">
+                <h4>Navigasi</h4>
+                <ul class="footer-links-list">
+                    <li><a data-target="home">Beranda</a></li>
+                    <li><a data-target="profil">Profil & Visi Misi</a></li>
+                    <li><a data-target="kegiatan">Kegiatan & Panduan</a></li>
+                    <li><a data-target="kontak">Hubungi Kami</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h4>Kontak & Kantor</h4>
+                <ul class="footer-contact-list">
+                    <li>
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                        </svg>
+                        Cisarua, Jawa Barat, Indonesia
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                        info@rumahalamjaya.com
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Rumah Alam Jaya. Hak Cipta Dilindungi Undang-Undang.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
